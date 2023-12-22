@@ -13,7 +13,7 @@ import (
 var (
 	ConfigAPIBaseURL       = "https://mobile.bereal.com/api"
 	ConfigGoogleAPIBaseURL = "https://www.googleapis.com/identitytoolkit/v3/relyingparty"
-	ConfigGoogleAPIKey     = "AIzaSyDwjfEeparokD7sXPVQli9NsTuhT6fJ6iA" //nolint
+	ConfigGoogleAPIKey     = "AIzaSyBR4u3SrXLjJ7sdfvj3ltu4DvjVmiXnh18" //nolint
 	ConfigRequestHeaders   = map[string]string{
 		"x-firebase-client":          "apple-platform/ios apple-sdk/19F64 appstore/true deploy/cocoapods device/iPhone9,1 fire-abt/8.15.0 fire-analytics/8.15.0 fire-auth/8.15.0 fire-db/8.15.0 fire-dl/8.15.0 fire-fcm/8.15.0 fire-fiam/8.15.0 fire-fst/8.15.0 fire-fun/8.15.0 fire-install/8.15.0 fire-ios/8.15.0 fire-perf/8.15.0 fire-rc/8.15.0 fire-str/8.15.0 firebase-crashlytics/8.15.0 os-version/14.7.1 xcode/13F100",
 		"user-agent":                 "FirebaseAuth.iOS/8.15.0 AlexisBarreyat.BeReal/0.22.4 iPhone/14.7.1 hw/iPhone9_1",
